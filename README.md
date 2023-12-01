@@ -1,5 +1,8 @@
 # Sky Strife League
 
+<img width="1512" alt="CleanShot 2023-12-01 at 13 32 11@2x" src="https://github.com/latticexyz/sky-strife-league/assets/4297920/62a66bd1-8ee6-485d-bd07-cbb5988e1686">
+
+
 This is an example of creating an alternative Sky Strife client that also utilizes custom contracts deployed to a Sky Strife MUD world. This currently points to the latest world deployed to Redstone as part of the Season 0 playtest.
 
 ## Dev Setup
