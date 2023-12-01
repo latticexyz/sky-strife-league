@@ -12,12 +12,13 @@ This is an example of creating an alternative Sky Strife client that also utiliz
 ## Deploying the League
 
 1. Change the MUD `namespace` that you will deploy to.
-  - Change the `namespace` key in `packages/contracts/mud.config.ts`.
+    - Change the `namespace` key in `packages/contracts/mud.config.ts`.
+    - This should be a unique name for your league not already in use.
 2. Add your private key to the `.env` file in `packages/contracts`.
-  - Run `cp packages/contracts/.env.example packages/contracts/.env` to create the `.env` file.
+    - Run `cp packages/contracts/.env.example packages/contracts/.env` to create the `.env` file.
 3. Run `pnpm deploy:redstone` inside the `packages/contracts` directory.
 4. Run `post-deploy:redstone` inside the `packages/contracts` directory.
-  - This sets yourself as the `Organizer` of the League and gives you the ability to add league matches and other organizers.
+    - This sets yourself as the `Organizer` of the League and gives you the ability to add league matches and other organizers.
 5. Commit and push your changes to the `main` branch.
 6. Deploy the client using the deploy to Vercel button.
 
