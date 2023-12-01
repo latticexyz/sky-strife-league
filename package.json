@@ -2,7 +2,7 @@
   "name": "sky-strife-league",
   "private": true,
   "scripts": {
-    "build": "pnpm --filter 'client' run build",
+    "build": "pnpm run build",
     "dev": "pnpm --filter 'client' run dev",
     "foundry:up": "curl -L https://foundry.paradigm.xyz | bash && bash $HOME/.foundry/bin/foundryup",
     "mud:up": "pnpm mud set-version --tag main && pnpm install",
