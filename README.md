@@ -24,4 +24,6 @@ This is an example of creating an alternative Sky Strife client that also utiliz
     - This sets yourself as the `Organizer` of the League and gives you the ability to add league matches and other organizers.
 5. Commit and push your changes to the `main` branch.
 6. Deploy the client using the deploy to Vercel button.
+7. Visit the deployed client. Use the url param `?admin` to access League Organizer features.
+    - Once in the admin view, you can import your private key to access the Organizer features.
 
