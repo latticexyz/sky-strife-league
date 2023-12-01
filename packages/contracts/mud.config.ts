@@ -1,7 +1,7 @@
 import { mudConfig } from "@latticexyz/world/register";
 
 export default mudConfig({
-  namespace: "andyleague",
+  namespace: "CHANGE_THIS",
   tables: {
     LeagueMatch: "bool",
     LeagueOrganizer: {
