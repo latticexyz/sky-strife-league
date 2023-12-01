@@ -23,9 +23,8 @@ This is an example of creating an alternative Sky Strife client that also utiliz
 4. Run `post-deploy:redstone` inside the `packages/contracts` directory.
     - This sets yourself as the `Organizer` of the League and gives you the ability to add league matches and other organizers.
 5. Commit and push your changes to the `main` branch.
-6. Deploy the client with Vercel.
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flatticexyz%2Fsky-strife-league&project-name=sky-strife-league&repository-name=sky-strife-league)
-
+6. Build the client by running `pnpm build` in the `packages/client` directory.
+    - This will create a `dist` folder in the `packages/client` directory. Upload this to a static hosting provider of your choice.
 7. Visit the deployed client. Use the url param `?admin` to access League Organizer features.
     - Once in the admin view, you can import your private key to access the Organizer features.
 
