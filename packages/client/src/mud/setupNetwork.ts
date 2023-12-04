@@ -21,8 +21,8 @@ import {
 } from "@latticexyz/common";
 import { resolveConfig } from "@latticexyz/store";
 import { Subject, share } from "rxjs";
-import IWorldAbi from "contracts/out/IWorld.sol/IWorld.abi.json";
-import SkyStrifeAbi from "contracts-skystrife/out/world/IWorld.sol/IWorld.abi.json";
+import IWorldAbi from "../../../contracts/out/IWorld.sol/IWorld.abi.json";
+import SkyStrifeAbi from "../../../contracts-skystrife/out/IWorld.sol/IWorld.abi.json";
 import { getNetworkConfig } from "./getNetworkConfig";
 import { tables as extraTables, syncFilters as extraSyncFilters } from "./extraTables";
 
