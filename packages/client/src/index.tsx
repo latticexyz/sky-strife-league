@@ -2,7 +2,7 @@ import ReactDOM from "react-dom/client";
 import { App } from "./App";
 import { setup } from "./mud/setup";
 import { MUDProvider } from "./MUDContext";
-import mudConfig from "contracts/mud.config";
+import mudConfig from "../../contracts/mud.config";
 
 const rootElement = document.getElementById("react-root");
 if (!rootElement) throw new Error("React root not found");

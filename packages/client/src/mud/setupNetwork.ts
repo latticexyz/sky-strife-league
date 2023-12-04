@@ -34,8 +34,8 @@ import { tables as extraTables, syncFilters as extraSyncFilters } from "./extraT
  * See https://mud.dev/tutorials/walkthrough/minimal-onchain#mudconfigts
  * for the source of this information.
  */
-import mudConfig from "contracts/mud.config";
-import skyStrifeConfig from "contracts-skystrife/mud.config";
+import mudConfig from "../../../contracts/mud.config";
+import skyStrifeConfig from "../../../contracts-skystrife/mud.config";
 import { createSyncFilters } from "./syncFilters";
 import { syncToRecs } from "@latticexyz/store-sync/recs";
 

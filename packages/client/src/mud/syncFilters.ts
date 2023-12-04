@@ -1,7 +1,7 @@
 import { resourceToHex } from "@latticexyz/common";
 import { SyncFilter } from "@latticexyz/store-sync";
-import skyStrifeMudConfig from "contracts-skystrife/mud.config";
-import mudConfig from "contracts/mud.config";
+import skyStrifeMudConfig from "../../../contracts-skystrife/mud.config";
+import mudConfig from "../../../contracts/mud.config";
 
 const MATCH_SPECIFIC_TABLES_NEEDED_IN_AMALGEMA = ["Player", "SpawnReservedBy", "OwnedBy", "LevelContent", "MatchRanking"];
 
