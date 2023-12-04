@@ -28,3 +28,10 @@ This is an example of creating an alternative Sky Strife client that also utiliz
 7. Visit the deployed client. Use the url param `?admin` to access League Organizer features.
     - Once in the admin view, you can import your private key to access the Organizer features.
 
+## Deploying the static build to Vercel
+
+1. Make sure you have a recent version of the Vercel CLI installed globally
+2. Proceed through all the above steps for "Deploying the League" before Step 6.
+3. Run `vercel build` to generate a static build.
+4. Run `vercel deploy --prebuilt` to deploy a development version of the client.
+5. Run `vercel deploy --prebuilt --prod` to deploy a production version of the client.
