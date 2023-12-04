@@ -21,8 +21,8 @@ import {
 } from "@latticexyz/common";
 import { resolveConfig } from "@latticexyz/store";
 import { Subject, share } from "rxjs";
-import IWorldAbi from "contracts/out/IWorld.sol/IWorld.abi.json";
-import SkyStrifeAbi from "contracts-skystrife/out/world/IWorld.sol/IWorld.abi.json";
+import IWorldAbi from "../../../contracts/out/IWorld.sol/IWorld.abi.json";
+import SkyStrifeAbi from "../../../contracts-skystrife/out/IWorld.sol/IWorld.abi.json";
 import { getNetworkConfig } from "./getNetworkConfig";
 import { tables as extraTables, syncFilters as extraSyncFilters } from "./extraTables";
 
@@ -34,8 +34,8 @@ import { tables as extraTables, syncFilters as extraSyncFilters } from "./extraT
  * See https://mud.dev/tutorials/walkthrough/minimal-onchain#mudconfigts
  * for the source of this information.
  */
-import mudConfig from "contracts/mud.config";
-import skyStrifeConfig from "contracts-skystrife/mud.config";
+import mudConfig from "../../../contracts/mud.config";
+import skyStrifeConfig from "../../../contracts-skystrife/mud.config";
 import { createSyncFilters } from "./syncFilters";
 import { syncToRecs } from "@latticexyz/store-sync/recs";
 

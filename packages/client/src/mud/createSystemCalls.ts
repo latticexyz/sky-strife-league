@@ -1,6 +1,6 @@
 import { Entity } from "@latticexyz/recs";
 import { setupNetwork } from "./setupNetwork";
-import mudConfig from "contracts/mud.config";
+import mudConfig from "../../../contracts/mud.config";
 import { Hex } from "viem";
 
 export function createSystemCalls(
