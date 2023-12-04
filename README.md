@@ -20,7 +20,7 @@ This is an example of creating an alternative Sky Strife client that also utiliz
 2. Add your private key to the `.env` file in `packages/contracts`.
     - Run `cp packages/contracts/.env.example packages/contracts/.env` to create the `.env` file.
 3. Run `pnpm deploy:redstone` inside the `packages/contracts` directory.
-4. Run `post-deploy:redstone` inside the `packages/contracts` directory.
+4. Run `pnpm post-deploy:redstone` inside the `packages/contracts` directory.
     - This sets yourself as the `Organizer` of the League and gives you the ability to add league matches and other organizers.
 5. Commit and push your changes to the `main` branch.
 6. Build the client by running `pnpm build` in the `packages/client` directory.
