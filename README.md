@@ -34,4 +34,9 @@ This is an example of creating an alternative Sky Strife client that also utiliz
 2. Proceed through all the above steps for "Deploying the League" before Step 6.
 3. Run `vercel build` to generate a static build.
 4. Run `vercel deploy --prebuilt` to deploy a development version of the client.
-5. Run `vercel deploy --prebuilt --prod` to deploy a production version of the client.
+5. Go to the Vercel control panel and promote the development client to production.
+
+If you try to deploy to production from the command line directly, that will run the
+entire contract build process inside Vercel, which probably will not work! You should
+make prebuilt deployments, push to development, and then promote them to production
+(for now).
